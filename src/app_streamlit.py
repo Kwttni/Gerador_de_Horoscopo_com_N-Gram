@@ -59,10 +59,11 @@ st.info("As previsões são geradas automaticamente por um modelo estatístico d
 selected_sign = st.selectbox("Selecione seu signo:", options=sign_list_br, index=0)
 
 if st.button("Gerar previsão para hoje", type="primary"):
-    texto, cor, humor, numero = generate_horoscope(selected_sign)
+    with st.spinner("Consultando os astros..."):
+        texto, cor, humor, numero = generate_horoscope(selected_sign)
 
     st.subheader("Previsão do Dia")
-    st.text_area("", value=texto, height=160)
+    st.text_area("Previsão", value=texto, height=160, label_visibility="collapsed") 
 
     c1, c2, c3 = st.columns(3)
     with c1:

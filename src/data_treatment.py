@@ -17,11 +17,15 @@ def treat_data():
 
     df = pd.read_csv("data/horoscope.csv")
     
-    horoscope_df = df.dropna(subset=['description', 'mood', 'color', 'lucky_number', 'sign']).copy()
+    horoscope_df = df.dropna(subset=['description', 'mood', 'color', 'lucky_number', 'sign'])
+
+    horoscope_df['sign'] = horoscope_df['sign'].astype(str).str.lower().str.strip()
+    horoscope_df['mood'] = horoscope_df['mood'].astype(str)
+    horoscope_df['color'] = horoscope_df['color'].astype(str)
+    horoscope_df['description'] = horoscope_df['description'].astype(str)
 
     # Lista de textos usados para treinar o modelo N-gram
     daily_words = horoscope_df['description'].tolist()
-
     sign_list = horoscope_df['sign'].unique().tolist()
     mood_list = horoscope_df['mood'].unique().tolist()
     color_list = horoscope_df['color'].unique().tolist()

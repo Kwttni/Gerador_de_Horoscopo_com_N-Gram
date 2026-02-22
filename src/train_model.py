@@ -1,9 +1,12 @@
 import pandas as pd
 import pickle
+import random
 from data_treatment import treat_data
 from ngram_model import NGramModel
 
 def train_and_save():
+    random.seed(42)
+
     daily_words_list, _, _, _, _ = treat_data()
 
     model = NGramModel(n = 4)

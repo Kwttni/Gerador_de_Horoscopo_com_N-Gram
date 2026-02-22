@@ -165,3 +165,24 @@ Abra o endereço exibido no terminal no seu navegador para acessar a aplicação
 O projeto utiliza um modelo <strong>4-gram</strong>, no qual a previsão da próxima palavra é baseada nas três palavras anteriores.
 
 Durante o treinamento, o modelo aprende probabilidades condicionais entre sequências de palavras presentes no dataset. Na geração de texto, a próxima palavra é escolhida com base nessas probabilidades. Isso permite gerar textos com estrutura semelhante aos dados utilizados no treinamento.
+
+<h2>Correspondência entre Pseudocódigo e Implementação</h2>
+
+Abaixo são apresentados trechos do pseudocódigo utilizado como referência
+e suas respectivas implementações no projeto.
+
+<h3>Pré-processamento e Tokenização</h3>
+
+<img src="docs/pre-processamento_tokenização.png" width="700">
+
+<h3>Criação dos N-grams</h3>
+
+<img src="docs/criação_dos_n-grams.png" width="700">
+
+<h3>Atualização das Contagens</h3>
+
+<img src="docs/atualização_das_Contagens.png" width="700">
+
+
+
+

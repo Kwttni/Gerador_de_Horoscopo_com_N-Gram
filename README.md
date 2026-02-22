@@ -1,11 +1,12 @@
 <h1>Gerador de Horóscopo com N-Gram</h1>
 
-**Integrantes:**
-* GABRIELLA NASCIMENTO DOS SANTOS DA SILVA
-* JOÃO VINÍCIUS DE ALMEIDA ARGOLO
-* JOSÉ VICTOR RIBEIRO DE JESUS
-* MARIANA SILVA COSTA
-* TIAGO RODRIGUES DOS SANTOS
+## Integrantes
+
+- Gabriella Nascimento dos Santos da Silva
+- João Vinícius de Almeida Argolo
+- José Victor Ribeiro de Jesus
+- Mariana Silva Costa
+- Tiago Rodrigues dos Santos
 
 
 <h2>Descrição</h2>

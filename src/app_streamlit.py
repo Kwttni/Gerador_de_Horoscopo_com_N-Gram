@@ -38,6 +38,7 @@ def generate_horoscope(selected_sign_pt: str):
     daily_words = model.generate_text(automatic_seeds, 120)
 
     clean_daily_words = daily_words.replace("<s>", "").replace("</s>", "").strip()
+    clean_daily_words = clean_daily_words[:600]
 
     br_daily_words = translator.translate(clean_daily_words)
 

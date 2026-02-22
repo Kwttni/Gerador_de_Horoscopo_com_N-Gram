@@ -116,7 +116,7 @@ pip install -r requirements.txt
 Antes de executar a aplicação, é necessário treinar o modelo N-Gram.
 
 <pre>
-python train_model.py
+python src/train_model.py
 </pre>
 
 Isso criará o arquivo:
@@ -130,16 +130,17 @@ ngram_model.pkl
 <h2>Executar a aplicação</h2>
 
 <pre>
-python app.py
+streamlit run src/app_streamlit.py
 </pre>
 
-O Gradio irá iniciar um servidor local e mostrará algo como:
+O Streamlit irá iniciar um servidor local e mostrará algo semelhante a:
 
 <pre>
-Running on http://127.0.0.1:7860
+Local URL: http://localhost:8501
+Network URL: http://192.168.x.x:8501
 </pre>
 
-Abra esse link no navegador.
+Abra o endereço exibido no terminal no seu navegador para acessar a aplicação.
 
 ---
 

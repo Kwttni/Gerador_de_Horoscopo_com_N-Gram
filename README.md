@@ -1,5 +1,13 @@
 <h1>Gerador de Horóscopo com N-Gram</h1>
 
+**Integrantes:**
+* GABRIELLA NASCIMENTO DOS SANTOS DA SILVA
+* JOÃO VINÍCIUS DE ALMEIDA ARGOLO
+* JOSÉ VICTOR RIBEIRO DE JESUS
+* MARIANA SILVA COSTA
+* TIAGO RODRIGUES DOS SANTOS
+
+
 <h2>Descrição</h2>
 
 Este projeto tem como objetivo desenvolver uma aplicação capaz de gerar previsões de horóscopo utilizando um modelo estatístico baseado em <strong>N-grams</strong>.

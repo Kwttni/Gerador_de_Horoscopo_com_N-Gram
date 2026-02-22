@@ -1,5 +1,3 @@
-import pandas as pd
-
 """
 data_treatment.py
 
@@ -8,6 +6,8 @@ Responsável por:
 2. Remover dados incompletos
 3. Preparar listas usadas pelo modelo N-gram e pela interface
 """
+
+import pandas as pd
 
 def treat_data():
     """

@@ -54,6 +54,7 @@ def generate_horoscope(selected_sign_pt: str):
 # ---------- UI ----------
 st.title("🌌 Horóscopo")
 st.write("Selecione seu signo para gerar as previsões do dia baseadas em modelos estatísticos de N-grams.")
+st.info("As previsões são geradas automaticamente por um modelo estatístico de linguagem (N-Gram) treinado com um dataset de horóscopos.")
 
 selected_sign = st.selectbox("Selecione seu signo:", options=sign_list_br, index=0)
 

@@ -8,6 +8,8 @@
 - Mariana Silva Costa
 - Tiago Rodrigues dos Santos
 
+## Link do app no Hugging Face Spaces
+https://huggingface.co/spaces/tiagorodriguesdev/Horoscope-Generator-with-N-Grams
 
 <h2>Descrição</h2>
 

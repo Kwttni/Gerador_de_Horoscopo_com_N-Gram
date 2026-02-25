@@ -30,8 +30,6 @@ translator = GoogleTranslator(source="en", target="pt")
 
 
 def generate_horoscope(selected_sign_pt: str):
-    # OBS: seu modelo atual não usa o signo para gerar (é só estético na UI).
-    # Se quiser que influencie, a gente muda depois.
 
     automatic_seeds = ["<s>", "<s>", "<s>"]
 
